@@ -1,8 +1,8 @@
 function BlueBar () {
     return (
-        <body>
+        <section>
 
-        </body>
+        </section>
     );
 }
 
