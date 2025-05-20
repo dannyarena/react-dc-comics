@@ -51,7 +51,17 @@ function Footer () {
                     <img src="/img/dc-logo-bg.png" alt="DC Logo Background" />
                 </div>
             </div>
-            
+            <div className="footer-bottom">
+                <button className="singup-btn">SIGN-UP NOW!</button>
+                <div className="social">
+                    <span>FOLLOW US</span>
+                    <img src="/img/footer-facebook.png" alt="Facebook" />
+                    <img src="/img/footer-periscope.png" alt="Twitter" />
+                    <img src="/img/footer-pinterest.png" alt="YouTube" />
+                    <img src="/img/footer-twitter.png" alt="Pinterest" />
+                    <img src="/img/footer-youtube.png" alt="YouTube" />
+                </div>
+            </div>
         </footer>
     );
 }
