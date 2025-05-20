@@ -6,4 +6,4 @@ function BlueBar () {
     );
 }
 
-export default BlueBar
+export default BlueBar;
