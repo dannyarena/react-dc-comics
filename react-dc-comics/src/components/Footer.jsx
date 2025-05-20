@@ -50,6 +50,7 @@ function Footer () {
                 <div className="footer-logo-bg">
                     <img src="/img/dc-logo-bg.png" alt="DC Logo Background" />
                 </div>
+                <img src="/img/footer-bg.jpg" alt="Footer Bg" />
             </div>
             <div className="footer-bottom">
                 <button className="singup-btn">SIGN-UP NOW!</button>
