@@ -32,3 +32,26 @@ nav li {
   cursor: pointer;
   color: black;
 }
+
+.blue-bar {
+  background-color: #0282f9;
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 0;
+}
+
+.bar-item {
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+  color: white;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.bar-item img {
+  width: 40px;
+  
+  height: 40px;
+  object-fit: contain;
+}
