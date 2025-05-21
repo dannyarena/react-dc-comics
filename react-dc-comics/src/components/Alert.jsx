@@ -19,3 +19,9 @@ const alertStyle = {
     textAlign: 'center',
 };
 
+return (
+    <div style={alertStyle}>
+        {children || message || defaultMessage}
+    </div>
+);
+}
