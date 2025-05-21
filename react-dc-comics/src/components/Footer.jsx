@@ -1,5 +1,6 @@
 function Footer () {
     return (
+        
         <footer className="footer">
             <div className="footer-top">
                 <div className="links.container">

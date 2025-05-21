@@ -1,5 +1,10 @@
+import Alert from './Alert';
+
 function BlueBar () {
+   
     return (
+         <>
+         <Alert></Alert>
         <section className="blue-bar">
             <div className="bar-item">
                 <img src="/img/buy-comics-digital-comics.png" alt="Digital Comics" />
@@ -22,7 +27,9 @@ function BlueBar () {
                 <span>DC POWER VISA</span>
             </div>
         </section>
+        </>
     );
+    
 }
 
 export default BlueBar;

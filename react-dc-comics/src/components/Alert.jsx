@@ -2,29 +2,29 @@
 function Alert ({message, textColor, bgColor, children}) {
 
     // Meesaggio di default
-const defaultMessage = "Si è verificato un errore";
+    const defaultMessage = "Si è verificato un errore";
 
-// colori di default
-const defaultTextColor = "white";
-const defaultBgColor = "red"
+    // colori di default
+    const defaultTextColor = "white";
+    const defaultBgColor = "red"
 
-// Oggetto con gli stili del box alert
-const alertStyle = {
-    color: textColor || defaultTextColor,
-    backgroundColor: bgColor || defaultBgColor,
-    padding: '1rem',
-    borderRadius: '8px',
-    margin: '1rem',
-    fontWeight: 'bold',
-    textAlign: 'center',
-};
+    // Oggetto con gli stili del box alert
+    const alertStyle = {
+        color: textColor || defaultTextColor,
+        backgroundColor: bgColor || defaultBgColor,
+        padding: '1rem',
+        borderRadius: '8px',
+        margin: '1rem',
+        fontWeight: 'bold',
+        textAlign: 'center',
+    };
 
-// ciò che React mostrerà a schermo
-return (
-    <div style={alertStyle}>
-        {children || message || defaultMessage}
-    </div>
-);
+    // ciò che React mostrerà a schermo
+    return (
+        <div style={alertStyle}>
+            {children || message || defaultMessage}
+        </div>
+    );
 
 }
 
