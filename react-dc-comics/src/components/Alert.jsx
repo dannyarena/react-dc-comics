@@ -9,5 +9,13 @@ const defaultTextColor = "white";
 const defaultBgColor = "red"
 
 // Oggetto con gli stili del box alert
+const alertStyle = {
+    color: textColor || defaultTextColor,
+    backgroundColor: bgColor || defaultBgColor,
+    padding: '1rem',
+    borderRadius: '8px',
+    margin: '1rem',
+    fontWeight: 'bold',
+    textAlign: 'center',
+};
 
-}
