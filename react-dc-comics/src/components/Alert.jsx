@@ -19,9 +19,13 @@ const alertStyle = {
     textAlign: 'center',
 };
 
+// ciò che React mostrerà a schermo
 return (
     <div style={alertStyle}>
         {children || message || defaultMessage}
     </div>
 );
+
 }
+
+export default Alert;
