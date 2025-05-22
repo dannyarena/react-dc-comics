@@ -5,6 +5,7 @@ import ComicCard from '../components/comicCard';
 function MainContent () {
     return (
         <main className="comics-wrapper">
+            <div className='main-wrapper'>
             <div className="section-header">
                 <h2 className='section-title'>Current Series</h2>
             </div>
@@ -20,6 +21,7 @@ function MainContent () {
 
         <div className='load-more-wrapper'>
         <button className='load-more'>Load More</button>
+        </div>
         </div>
         </main>
     );
