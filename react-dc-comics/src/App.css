@@ -64,3 +64,11 @@ nav li {
   background-color: #1c1c1c;
   justify-content: center;
 }
+
+.comic-card {
+  width: 150px;
+  color: white;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
