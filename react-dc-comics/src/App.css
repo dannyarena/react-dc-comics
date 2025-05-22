@@ -55,3 +55,12 @@ nav li {
   height: 40px;
   object-fit: contain;
 }
+
+.comics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+  gap: 1.5rem;
+  padding: 2rem;
+  background-color: #1c1c1c;
+  justify-content: center;
+}

@@ -4,7 +4,7 @@ import ComicCard from '../components/comicCard';
 // crea funzione per mostrare card dinamiche
 function MainContent () {
     return (
-        <main>
+        <main className="comics-grid">
             {comics.map((comic) => (
                 <ComicCard
                 key={comic.id}
