@@ -18,7 +18,9 @@ function MainContent () {
             ))}
         </div>
 
-        <div className='load-more-wrapper'>Load More</div>
+        <div className='load-more-wrapper'>
+        <button className='load-more'>Load More</button>
+        </div>
         </main>
     );
 }
