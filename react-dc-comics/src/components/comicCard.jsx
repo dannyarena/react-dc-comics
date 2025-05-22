@@ -1,4 +1,6 @@
-function comicCard(props) {
+// crea funzione per generare card dinamiche
+
+function ComicCard(props) {
     return (
         
         <div className="comic-card">
@@ -9,4 +11,4 @@ function comicCard(props) {
     );
 }
 
-export default comicCard;
+export default ComicCard;
